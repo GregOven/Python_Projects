@@ -42,4 +42,4 @@ if __name__ == "__main__":
     print(f"Your target amount in future is: €{target_amount_2054:.2f}")
     print(f"To achieve your target you should monthly contribute to buying ETF with 5% interest rate: €{required_monthly_contribution_pesimistic:.2f}")
     print(f"To achieve your target you should monthly contribute to buying ETF with 7% interest rate: €{required_monthly_contribution_realistic:.2f}")
-    print(f"To achieve your target you should monthly contribute to buying ETF with 9% interest rate: €{required_monthly_contribution_optimistic:.2f}")
+    print(f"To achieve your target you should monthly contribute to buying ETF with 10% interest rate: €{required_monthly_contribution_optimistic:.2f}")
