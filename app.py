@@ -26,6 +26,9 @@ required_monthly_contribution_optimistic = calculate_required_monthly_contributi
 
 # Display the results
 st.write(f"Your target amount in future is: €{target_amount_2054:.2f}")
-st.write(f"To achieve your target you should monthly contribute to buying ETF with 5% interest rate: €{required_monthly_contribution_pesimistic:.2f}")
-st.write(f"To achieve your target you should monthly contribute to buying ETF with 7% interest rate: €{required_monthly_contribution_realistic:.2f}")
-st.write(f"To achieve your target you should monthly contribute to buying ETF with 9% interest rate: €{required_monthly_contribution_optimistic:.2f}")
+st.write(f"To achieve PESIMISTIC target, you should monthly contribute to buying ETF with 5% interest rate: €{required_monthly_contribution_pesimistic:.2f}")
+st.write(f"To achieve REALISTIC target, you should monthly contribute to buying ETF with 7% interest rate: €{required_monthly_contribution_realistic:.2f}")
+st.write(f"To achieve OPTIMISTIC target, you should monthly contribute to buying ETF with 9% interest rate: €{required_monthly_contribution_optimistic:.2f}")
+
+
+#streamlit run app.py
